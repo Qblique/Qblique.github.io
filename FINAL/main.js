@@ -71,3 +71,22 @@ function scrollToSection(sectionId, offset) {
 function closeOverlay() {
   document.getElementById("myNav").style.display = "none";
 }
+
+$('a[href^="#"]').click(function(event) {
+  event.preventDefault();
+
+  var navbarHeight = $('.topnav').height(); 
+  var target = $(this.hash);
+  var targetOffset = target.offset().top - navbarHeight; 
+
+  $('html, body').animate({
+    scrollTop: targetOffset
+  }, 500);
+});
+
+
+
+
+
+
+
