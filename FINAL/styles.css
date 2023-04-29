@@ -186,7 +186,7 @@ body {
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("photo/ana.png");
   background-color: #DOCDC9;
-  height: 100vh;
+  height: 78vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -197,7 +197,7 @@ body {
   text-align: center;
   color: white;
   position: relative;
-  top: 50%;
+  top: 45%;
 }
 
 
@@ -568,7 +568,7 @@ input[type="submit"]:hover {
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 
